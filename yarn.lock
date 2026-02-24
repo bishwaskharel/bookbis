@@ -605,6 +605,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@mvtlab/nextjs-orchestrator@npm:^0.1.3":
+  version: 0.1.3
+  resolution: "@mvtlab/nextjs-orchestrator@npm:0.1.3"
+  peerDependencies:
+    next: ">=13.0.0"
+    react: ">=18.0.0"
+    react-dom: ">=18.0.0"
+  checksum: 10c0/08d7605c703d1bc70c48b540e54a05e6af87ad0dfd70c728465c6bf205fd71de97209a382ee79cc2b131d79266e5d5068e334cf74a252dfac5a1dcee1193227c
+  languageName: node
+  linkType: hard
+
 "@napi-rs/wasm-runtime@npm:^0.2.11":
   version: 0.2.12
   resolution: "@napi-rs/wasm-runtime@npm:0.2.12"
@@ -3199,6 +3210,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "my-app@workspace:."
   dependencies:
+    "@mvtlab/nextjs-orchestrator": "npm:^0.1.3"
     "@tailwindcss/postcss": "npm:^4"
     "@types/node": "npm:^20"
     "@types/react": "npm:^19"
