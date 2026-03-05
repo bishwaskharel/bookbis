@@ -1,6 +1,7 @@
 "use client";
 
 import { MVTOrchestrator } from "@mvtlab/nextjs-orchestrator";
+import { VWOScript } from 'vwo-smartcode-nextjs';
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
@@ -21,6 +22,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <VWOScript accountId="1121661" />
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
