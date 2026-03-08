@@ -29,7 +29,7 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <MVTOrchestrator
-          orchestratorKey="RSQgbADIsTO0XcYuMOV9Bw"
+          orchestratorKey="CLP3oYoNjc31e9a6lUU1Fw"
           antiFlickerEnabled
         >
           {children}
